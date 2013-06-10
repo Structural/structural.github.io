@@ -16,15 +16,38 @@ From the Pew Internet study ["Teens, Social Media and Privacy"](http://www.pewin
 
 What's the difference (at least during the moment of early 2013) between
 Facebook and Twitter/Instagram?  Why does "drama" seem to flare up on Facebook
-regularly, and not on other networks?  Illegibility, or, on Facebook, the lack
-thereof.  <span class="note-link" data-note-id="venkat">The glue that holds groups of humans together is our shared illegible
-status</span> - when we all think that we're all about as great as each other we can
+regularly, and not on other networks?  In order to answer that, let me digress
+for a moment in order to define "illegibility"  (no, it's not about your
+<span class="note-link" data-note-id="rimshot">doctor's handwriting</span>).
+I didn't invent the idea, but
+it doesn't seem to have gained much traction in the circle of people who read
+blog posts about Facebook, so here goes.  The degree to which something is
+legible is the degree to which an outside observer can extract information or
+meaning from it.  A classic example is of a state trying to levy taxes on its
+population.  The state can easily keep track of citizens who live in a single
+home for long periods of time, who have records of their employment and who keep
+their money in financial institutions who abide by reporting requirements.
+These citizens are legible to the state, and it's relatively easy to get them to
+pay taxes on time and in full.  Other citizens are less legible: migrant workers
+who don't have a fixed place of residence or employment, for example.  They're
+no less citizens, but when the state looks at them through the lens of rules
+designed for extracting tax from relatively stationary people, it's often very
+unclear whether they should owe anything at all, and if so, to who.
+
+Many more things are illegible than legible, and one of the lessons of
+illegibility is that trying to turn the fundamentally illegible legible often
+kills it.
+<span class="note-link" data-note-id="venkat">The glue that holds groups of humans together is our shared illegible status</span>
+- when we all think that we're all about as great as each other we can
 band together, but any attempt to create a strict hierarchy will cleave us
 apart. Stable, "drama"-free groups are mostly illegible.  Since the members
 are all (as far as they can tell) on equal footing there's nothing for them to
 fight over.
 
-Facebook doesn't like illegibility, though.  They need to sell ad space to keep
+Facebook doesn't like illegibility, though.  Consider the 'relationship status'
+dropdown.  Reducing the full scope of human relationships to a handful of options
+is patently absurd, but there it is.  The drive towards legibility has a simple
+motivation for Facebook: they need to sell ad space to keep
 the lights on, and the reason people want to buy ads on Facebook is that the ads
 can be targeted.  <span class="note-link" data-note-id="targeting">Targeting <em>requires</em> legibility.</span>  In order to target
 advertising as effectively as possible, Facebook needs you, and your
@@ -40,6 +63,10 @@ bonds in a panopticon?  <span class="note-link" data-note-id="illegible-ads">Ill
 you use it to make several billion dollars on the internet?</span> If we're all
 still using Facebook in ten years, will Pew come out with another study that
 says we all still hate it?
+
+<aside data-note-id="rimshot"><p>
+And airplane food, what's up with that!?
+</p></aside>
 
 <aside data-note-id="venkat"><p>
 This idea is ripped pretty much wholesale from
@@ -74,7 +101,7 @@ users you need, specifically teens, many of whom don't have disposable income.
 <aside data-note-id="illegible-ads"><p>
 All advertising is to some extent targeted and legible, of course.  (There's
 a line I've heard attributed to
-[the Last Psychiatrist](http://thelastpsychiatrist.com/) - "If you're
+<a href="http://thelastpsychiatrist.com/">The Last Psychiatrist</a> - "If you're
 seeing it, it's meant for you", but I can't find the source for it.)  But the
 targeting and tracking increases we've seen in the last decade have made a
 striking enough difference in the degree of legibility afforded advertisers that

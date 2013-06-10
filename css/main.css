@@ -39,6 +39,9 @@ article header {
 
 article p {
   margin: 0;
+}
+
+article > p {
   text-indent: 1.5em;
 }
 
