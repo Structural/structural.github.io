@@ -1,0 +1,24 @@
+---
+title: Semantic Debt
+date: '2013-04-03'
+---
+
+I don't need to convince you that getting your names right in your code is
+important, because you know that already.  You know it because everyone is
+telling you about it all the time.  The problem is that it obviously isn't
+sticking, otherwise everyone wouldn't be shouting about it.  What we need is a
+good catchphrase to wrap this whole conversation in.  Introducing...
+
+<span class="hero">Semantic Debt</span>
+
+Technical debt causes bugs, semantic debt causes confusion.  They both slow down
+day-to-day development and complicate onboarding.  Just like technical debt
+needs to be continually (or at least periodically) cleansed so that new
+development can continue, we should both spend time up front to get our names
+right and make time on a regular basis to fix names that no longer make sense.
+Clearing out semantic debt is Febreze on the lexical couch cushions of our
+application.
+
+So the next time you spend half an hour coming up with just the right name for
+a function, don't feel bad that you're wasting time, be proud - you just got
+rid of some semantic debt.
