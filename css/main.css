@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f0f0;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a, a:link, a:visited, a:hover, a:active, a:focus {
+  color: #025D8C;
+}
+
+article {
+  width: 30em;
+  margin: auto;
+  font-family: 'PT Serif', serif;
+  font-size: 1.1rem;
+}
+
+article header {
+  margin-bottom: 2rem;
+}
+
+.headline {
+  margin-bottom: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.dateline {
+  font-family: 'PT Sans', sans-serif;
+}
+
+article p {
+  margin: 0;
+  text-indent: 1.5em;
+}
+
+article > p:first-of-type:first-letter {
+  font-size: 1.6rem;
+}
+
+article .hero {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-family: 'PT Sans', sans-serif;
+}

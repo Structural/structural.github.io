@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<span class="dateline">{{ page.date | date_to_string }}</span>
-
 <article>
+  <header>
+    <h1 class="headline">{{ page.title }}</h1>
+    <span class="dateline">{{ page.date | date_to_string }}</span>
+  </header>
   {{ content }}
 </article>

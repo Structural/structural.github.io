@@ -15,7 +15,7 @@ important, because you know that already.
 sticking, otherwise everyone wouldn't be shouting about it.  What we need is a
 good catchphrase to wrap this whole conversation in.  Introducing...
 
-<span class="hero">Semantic Debt</span>
+<div class="hero">Semantic Debt</div>
 
 Technical debt causes bugs, semantic debt causes confusion.  They both slow down
 day-to-day development and complicate onboarding.  Just like technical debt
