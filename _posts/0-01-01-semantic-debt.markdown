@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Semantic Debt
 date: '2013-04-03'
 ---
