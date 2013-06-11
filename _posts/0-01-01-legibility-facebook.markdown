@@ -65,7 +65,7 @@ still using Facebook in ten years, will Pew come out with another study that
 says we all still hate it?
 
 <aside data-note-id="rimshot"><p>
-And airplane food, what's up with that!?
+And airplane food, what's up with that, am I right?
 </p></aside>
 
 <aside data-note-id="venkat"><p>
