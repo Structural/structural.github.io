@@ -61,7 +61,7 @@ aside.active {
 aside.color-0,
 .note-link.active.color-0,
 .note-link:hover.color-0,
-.note-connector.color-0, {
+.note-connector.color-0 {
   border-color: rgba(73, 10, 61, .5);
 }
 
@@ -73,7 +73,7 @@ aside.color-0,
 aside.color-1,
 .note-link.active.color-1,
 .note-link:hover.color-1,
-.note-connector.color-1, {
+.note-connector.color-1 {
   border-color: rgba(189, 21, 80, .5);
 }
 
@@ -85,7 +85,7 @@ aside.color-1,
 aside.color-2,
 .note-link.active.color-2,
 .note-link:hover.color-2,
-.note-connector.color-2, {
+.note-connector.color-2 {
   border-color: rgba(233, 127, 2, .5);
 }
 
@@ -97,7 +97,7 @@ aside.color-2,
 aside.color-3,
 .note-link.active.color-3,
 .note-link:hover.color-3,
-.note-connector.color-3, {
+.note-connector.color-3 {
   border-color: rgba(248, 202, 0, .5);
 }
 
@@ -109,7 +109,7 @@ aside.color-3,
 aside.color-4,
 .note-link.active.color-4,
 .note-link:hover.color-4,
-.note-connector.color-4, {
+.note-connector.color-4 {
   border-color: rgba(138, 155, 15, .5);
 }
 
