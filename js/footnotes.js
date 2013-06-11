@@ -66,16 +66,53 @@ function create_footnotes() {
     var link_center = link.position().top + (link.height() / 2);
     var proposed_note_top = link_center - (note.height() / 2);
     var note_left = false;
-    if (proposed_note_top >= right_viable_top) {
-      right_viable_top = position_note(inter_note_padding, 'right', proposed_note_top, note);
-    } else if (proposed_note_top >= left_viable_top) {
-      left_viable_top = position_note(inter_note_padding, 'left', proposed_note_top, note);
-      note_left = true;
-    } else if (right_viable_top <= left_viable_top) {
-      right_viable_top = position_note(inter_note_padding, 'right', right_viable_top, note);
+    var left_badness = link.position().left;
+    var right_badness = article.width() - (link.width() + link.position().left);
+    var prefer_left = left_badness < right_badness;
+
+    var try_left = function(attempt) {
+      if (attempt >= left_viable_top) {
+        left_viable_top = position_note(inter_note_padding, 'left', attempt, note);
+        note_left = true;
+        return true;
+      } else {
+        return false;
+      }
+    };
+
+    var try_right = function(attempt) {
+      if (attempt >= right_viable_top) {
+        right_viable_top = position_note(inter_note_padding, 'right', attempt, note);
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    var attempt_funs = [];
+    var attempt_tops = [proposed_note_top, proposed_note_top];
+    if (prefer_left) {
+      attempt_funs = [try_left, try_right];
     } else {
-      left_viable_top = position_note(inter_note_padding, 'left', left_viable_top, note);
-      note_left = true;
+      attempt_funs = [try_right, try_left];
+    }
+
+    if (left_viable_top < right_viable_top) {
+      attempt_funs.push(try_left);
+      attempt_funs.push(try_right);
+      attempt_tops.push(left_viable_top);
+      attempt_tops.push(right_viable_top);
+    } else {
+      attempt_funs.push(try_right);
+      attempt_funs.push(try_left);
+      attempt_tops.push(right_viable_top);
+      attempt_tops.push(left_viable_top);
+    }
+
+    for (var i = 0; i < attempt_funs.length; i++) {
+      if (attempt_funs[i](attempt_tops[i])) {
+        break;
+      }
     }
 
     var connector = create_connector(article, line_height, id, link, note_left);
