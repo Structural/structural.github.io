@@ -26,11 +26,18 @@ function color_elements(color_index, elements) {
   });
 }
 
-function toggle_active_on_click(target, elements) {
+function toggle_active_on_click(target, elements, exclusive) {
   target.on('click', function(e) {
-    elements.forEach(function(el) {
-      el.toggleClass('active');
-    });
+    var started_inactive = !target.hasClass('active');
+    if (exclusive) {
+      $('.active').removeClass('active');
+    }
+
+    if (!exclusive || started_inactive) {
+      elements.forEach(function(el) {
+        el.toggleClass('active');
+      });
+    }
   });
 }
 
@@ -52,72 +59,80 @@ function create_footnotes() {
 
   var n_colors = 5;
   var article = $('article');
-  var line_height_with_unit = getComputedStyle($('article')[0]).getPropertyValue('line-height');
+  var line_height_with_unit = getComputedStyle(article[0]).getPropertyValue('line-height');
   var line_height = to_i(line_height_with_unit.substring(0, line_height_with_unit.length - 2));
+  var font_size_with_unit = getComputedStyle(article[0]).getPropertyValue('font-size');
+  var font_size = to_i(font_size_with_unit.substring(0, font_size_with_unit.length - 2));
   var inter_note_padding = line_height * 2;
   var left_viable_top = 0;
   var right_viable_top = 0;
+
+  var skinny_viewport = $(window).width() < font_size * 48;
 
   $('.note-link').each(function(index, link) {
     link = $(link);
     var id = link.attr('data-note-id');
     var note = $('aside[data-note-id="' + id + '"]');
 
-    var link_center = link.position().top + (link.height() / 2);
-    var proposed_note_top = link_center - (note.height() / 2);
-    var note_left = false;
-    var left_badness = link.position().left;
-    var right_badness = article.width() - (link.width() + link.position().left);
-    var prefer_left = left_badness < right_badness;
-
-    var try_left = function(attempt) {
-      if (attempt >= left_viable_top) {
-        left_viable_top = position_note(inter_note_padding, 'left', attempt, note);
-        note_left = true;
-        return true;
-      } else {
-        return false;
-      }
-    };
-
-    var try_right = function(attempt) {
-      if (attempt >= right_viable_top) {
-        right_viable_top = position_note(inter_note_padding, 'right', attempt, note);
-        return true;
-      } else {
-        return false;
-      }
-    }
-
-    var attempt_funs = [];
-    var attempt_tops = [proposed_note_top, proposed_note_top];
-    if (prefer_left) {
-      attempt_funs = [try_left, try_right];
+    if (skinny_viewport) {
+      note.css('top', link.position().top + link.height() + line_height);
     } else {
-      attempt_funs = [try_right, try_left];
-    }
+      var link_center = link.position().top + (link.height() / 2);
+      var proposed_note_top = link_center - (note.height() / 2);
+      var note_left = false;
+      var left_badness = link.position().left;
+      var right_badness = article.width() - (link.width() + link.position().left);
+      var prefer_left = left_badness < right_badness;
 
-    if (left_viable_top < right_viable_top) {
-      attempt_funs.push(try_left);
-      attempt_funs.push(try_right);
-      attempt_tops.push(left_viable_top);
-      attempt_tops.push(right_viable_top);
-    } else {
-      attempt_funs.push(try_right);
-      attempt_funs.push(try_left);
-      attempt_tops.push(right_viable_top);
-      attempt_tops.push(left_viable_top);
-    }
+      var try_left = function(attempt) {
+        if (attempt >= left_viable_top) {
+          left_viable_top = position_note(inter_note_padding, 'left', attempt, note);
+          note_left = true;
+          return true;
+        } else {
+          return false;
+        }
+      };
 
-    for (var i = 0; i < attempt_funs.length; i++) {
-      if (attempt_funs[i](attempt_tops[i])) {
-        break;
+      var try_right = function(attempt) {
+        if (attempt >= right_viable_top) {
+          right_viable_top = position_note(inter_note_padding, 'right', attempt, note);
+          return true;
+        } else {
+          return false;
+        }
+      }
+
+      var attempt_funs = [];
+      var attempt_tops = [proposed_note_top, proposed_note_top];
+      if (prefer_left) {
+        attempt_funs = [try_left, try_right];
+      } else {
+        attempt_funs = [try_right, try_left];
+      }
+
+      if (left_viable_top < right_viable_top) {
+        attempt_funs.push(try_left);
+        attempt_funs.push(try_right);
+        attempt_tops.push(left_viable_top);
+        attempt_tops.push(right_viable_top);
+      } else {
+        attempt_funs.push(try_right);
+        attempt_funs.push(try_left);
+        attempt_tops.push(right_viable_top);
+        attempt_tops.push(left_viable_top);
+      }
+
+      for (var i = 0; i < attempt_funs.length; i++) {
+        if (attempt_funs[i](attempt_tops[i])) {
+          break;
+        }
       }
     }
 
     var connector = create_connector(article, line_height, id, link, note_left);
     color_elements(index % n_colors, [link, note, connector]);
-    toggle_active_on_click(link, [link, note, connector]);
+    toggle_active_on_click(link, [link, note, connector], skinny_viewport);
   });
 }
 

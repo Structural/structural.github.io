@@ -117,3 +117,19 @@ aside.color-4,
 .note-link:hover.color-4 {
   background-color: rgba(138, 155, 15, .15);
 }
+
+@media (max-width: 48em) {
+  aside {
+    right: auto;
+    left: .5em;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 10px;
+
+    box-shadow: .5em .5em rgba(0, 0, 0, .4);
+  }
+
+  .note-connector.active {
+    display: none;
+  }
+}
