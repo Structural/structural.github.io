@@ -1,6 +1,9 @@
 body {
   background-color: #f0f0f0;
   color: #333333;
+  font-family: 'PT Serif', serif;
+  padding:0;
+  margin:0;
 }
 
 a {
@@ -15,43 +18,98 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
   color: #025D8C;
 }
 
-article {
-  width: 30em;
-  margin: auto;
-  font-family: 'PT Serif', serif;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  position: relative;
+
+.header, .main, .footer{
+  box-sizing:border-box;
+  margin:auto;
+  width:40rem;
 }
 
-article header {
-  margin-bottom: 2rem;
+
+.header-wrap{
+  background-color:#DDD;
+  text-decoration: none;
+  border-bottom:1px solid #BBB;
+}
+.header{
+  padding:1.0rem;
 }
 
-.headline {
-  margin-bottom: 0;
-  font-family: 'PT Sans Narrow', sans-serif;
+a.logo{
+  font-size:1.25rem;
+  text-decoration: none;
+  color:#222;
+  padding:0.25rem 0.5rem;
+  font-weight: bold;
 }
 
-.dateline {
-  font-family: 'PT Sans', sans-serif;
+a.logo:hover{
+  color:white;
+  background-color:#888;
 }
 
-article p {
-  margin: 0;
+.tagline{
+  float:right;
+  padding-top:0.25rem;
+}
+.tagline, .tagline a{
+  color:#666;
+  text-decoration: none;
+  border-bottom:2px solid transparent;
 }
 
-article > p {
-  text-indent: 1.5em;
+.tagline a:hover{
+  padding:1px 2px;
+  margin:-2px;
 }
 
-article > p:first-of-type:first-letter {
-  font-size: 1.6rem;
+.tagline .link-to-blog:hover{
+  border-color: rgba(73, 10, 61, .5);
+  background-color: rgba(73, 10, 61, .15);
+}
+.tagline .link-to-about:hover{
+  border-color: rgba(189, 21, 80, .5);
+  background-color: rgba(189, 21, 80, .15);
+}
+.tagline .link-to-esoteric:hover{
+  border-color: rgba(233, 127, 2, .5);
+  background-color: rgba(233, 127, 2, .15);
+}
+.tagline .link-to-software:hover{
+  border-color: rgba(248, 202, 0, .5);
+  background-color: rgba(248, 202, 0, .15);
+}
+.tagline .link-to-development:hover{
+  border-color: rgba(138, 155, 15, .5);
+  background-color: rgba(138, 155, 15, .15);
 }
 
-article .hero {
-  text-align: center;
-  font-size: 2rem;
-  margin: 1rem 0;
-  font-family: 'PT Sans', sans-serif;
+.list{
+
+}
+
+.list ul{
+  list-style-type: none;
+  padding:0;
+}
+
+.list li{
+  margin-top:1.0rem;
+  padding:1.0rem;
+  border:1px solid #CCC;
+  background-color: white;
+}
+.list .title{
+  font-weight: bold;
+  font-size:1.2em;
+
+}
+
+.page-contents{
+  border:1px solid #CCC;
+  background-color:white;
+  margin: 1.0rem auto;
+  padding:1rem;
+}
+.page-contents p{
 }

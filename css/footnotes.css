@@ -37,12 +37,12 @@ aside {
 }
 
 aside.right {
-  left: 35em;
+  left: 38em;
   border-left-width: 10px;
 }
 
 aside.left {
-  right: 35em;
+  right: 38em;
   border-right-width: 10px;
 }
 

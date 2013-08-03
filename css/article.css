@@ -1,0 +1,58 @@
+.article-wrapper{
+  //width:40rem;
+  margin:auto;
+  border:1px solid #CCC;
+  background-color:white;
+  margin: 1.0rem auto;
+  padding:0.5rem 0.5rem;
+}
+
+article {
+  width: 32em;
+  margin: auto;
+  /*font-family: 'PT Serif', serif;*/
+  font-size: 1.1rem;
+  line-height: 1.5;
+  position: relative;
+}
+article h1{
+  margin:0;
+}
+article header {
+  margin-bottom: 2rem;
+}
+
+.headline {
+  margin-bottom: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.dateline {
+  font-family: 'PT Sans', sans-serif;
+}
+
+article p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+article > p {
+  //text-indent: 3rem;
+  margin-bottom:1.5rem;
+  margin-top:1.5rem;
+}
+
+article > p:first-of-type:first-letter {
+  font-size: 1.6rem;
+}
+
+article .hero {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-family: 'PT Sans', sans-serif;
+}
+blockquote{
+  font-size: 0.9em;
+  color:#888;
+}
