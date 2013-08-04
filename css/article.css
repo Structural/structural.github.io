@@ -15,20 +15,47 @@ article {
   line-height: 1.5;
   position: relative;
 }
+
 article h1{
   margin:0;
-}
-article header {
-  margin-bottom: 2rem;
 }
 
 .headline {
   margin-bottom: 0;
   font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.dateline {
+.subhead {
+  font-family: 'PS Serif', serif;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.subhead:before {
+  content: "or, ";
+  display: block;
+}
+
+.subhead:empty:before {
+  content: "";
+}
+
+.byline:after {
+  content: "|";
+  display: inline-block;
+  margin-left: .5rem;
+  margin-right: .2rem;
+}
+
+.byline, .dateline {
   font-family: 'PT Sans', sans-serif;
+  font-size: .8rem;
 }
 
 article p {
@@ -40,6 +67,10 @@ article > p {
   //text-indent: 3rem;
   margin-bottom:1.5rem;
   margin-top:1.5rem;
+}
+
+article > p:first-of-type {
+  margin-top: 0;
 }
 
 article > p:first-of-type:first-letter {
