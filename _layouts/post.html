@@ -5,6 +5,8 @@ layout: default
   <article>
     <header>
       <h1 class="headline">{{ page.title }}</h1>
+      <h2 class="subhead">{{ page.subtitle }}</h2>
+      <span class="byline">{{ page.author }}</span>
       <span class="dateline">{{ page.date | date_to_string }}</span>
     </header>
     {{ content }}

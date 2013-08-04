@@ -99,10 +99,15 @@ a.logo:hover{
   border:1px solid #CCC;
   background-color: white;
 }
+
 .list .title{
   font-weight: bold;
   font-size:1.2em;
+  display: block;
+}
 
+.list .subtitle {
+  font-style: italic;
 }
 
 .page-contents{

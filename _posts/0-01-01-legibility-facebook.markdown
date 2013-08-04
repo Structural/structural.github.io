@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Six Other Users Liked "I Hate You"
+title: Facebook, Legibility and Drama
+subtitle: Six Other Users Liked "I Hate You"
 date: 2013-06-09
+author: Sean Kermes
 ---
 
 From the Pew Internet study ["Teens, Social Media and Privacy"](http://www.pewinternet.org/Reports/2013/Teens-Social-Media-And-Privacy/Summary-of-Findings.aspx):

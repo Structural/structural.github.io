@@ -1,7 +1,9 @@
 ---
 layout: post
-title: What's So Funny 'Bout PeaceLoveAndUnderstandingManagerFactoryFactory?
+title: Semantic Debt
+subtitle: What's So Funny 'Bout PeaceLoveAndUnderstandingManagerFactoryFactory?
 date: '2013-04-03'
+author: Sean Kermes
 ---
 
 I don't need to convince you that getting your names right in your code is
