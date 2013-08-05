@@ -2,7 +2,7 @@
 layout: post
 title: Semantic Debt
 subtitle: What's So Funny 'Bout PeaceLoveAndUnderstandingManagerFactoryFactory?
-date: '2013-04-03'
+date: 2013-04-03T11:24:00-4:00
 author: Sean Kermes
 ---
 

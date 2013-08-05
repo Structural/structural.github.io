@@ -2,7 +2,7 @@
 layout: post
 title: Facebook, Legibility and Drama
 subtitle: Six Other Users Liked "I Hate You"
-date: 2013-06-09
+date: 2013-06-09T14:30:00-4:00
 author: Sean Kermes
 ---
 
