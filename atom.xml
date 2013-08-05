@@ -2,9 +2,27 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://www.structur.al</id>
+  <id>http://structur.al</id>
   <title>Structural</title>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <link rel="self" type="text/html" href="http://structur.al/atom.xml" />
   <link rel="alternate" type="application/atom+xml" href="http://structur.al" />
+
+  {% for post in site.posts limit:10 %}
+    <entry>
+      <title>{{ post.title }}</title>
+      <author>
+        <name>{{ post.author }}</name>
+      </author>
+      <content type="xhtml">
+        <div>
+          {{ post.content }}
+        </div>
+      </content>
+      <id>http://structur.al{{ post.url }}</id>
+      <link rel="alternate" type="text/html" href="http://structur.al{{ post.url }}" />
+      <published>{{ post.date | date_to_xmlschema }}</published>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+    </entry>
+  {% endfor %}
 </feed>
