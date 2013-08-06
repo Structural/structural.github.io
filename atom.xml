@@ -14,10 +14,7 @@
       <author>
         <name>{{ post.author }}</name>
       </author>
-      <content type="xhtml">
-        <div>
-          {{ post.content }}
-        </div>
+      <content type="text/html" src="http://structur.al{{ post.url }}">
       </content>
       <id>http://structur.al{{ post.url }}</id>
       <link rel="alternate" type="text/html" href="http://structur.al{{ post.url }}" />
