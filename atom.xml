@@ -2,7 +2,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://structur.al</id>
+  <id>http://structur.al/</id>
   <title>Structural</title>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <link rel="self" type="text/html" href="http://structur.al/atom.xml" />
