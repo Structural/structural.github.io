@@ -16,6 +16,7 @@
       </author>
       <content type="text/html" src="http://structur.al{{ post.url }}">
       </content>
+      <summary>{{ post.excerpt | strip_html }}</summary>
       <id>http://structur.al{{ post.url }}</id>
       <link rel="alternate" type="text/html" href="http://structur.al{{ post.url }}" />
       <published>{{ post.date | date_to_xmlschema }}</published>
