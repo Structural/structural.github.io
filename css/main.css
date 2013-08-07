@@ -118,3 +118,15 @@ a.logo:hover{
 }
 .page-contents p{
 }
+
+.poem {
+  text-align: center;
+}
+
+.poem p {
+  white-space: pre-line;
+}
+
+.poem i[class*="curly"] {
+  color: #aaa;
+}
