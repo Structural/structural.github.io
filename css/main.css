@@ -1,3 +1,7 @@
+html{
+  font-size:16px;
+}
+
 body {
   background-color: #f0f0f0;
   color: #333333;
@@ -48,38 +52,36 @@ a.logo:hover{
   background-color:#888;
 }
 
-.tagline{
+.nav{
   float:right;
   padding-top:0.25rem;
 }
-.tagline, .tagline a{
+.nav, .nav a{
   color:#666;
   text-decoration: none;
   border-bottom:2px solid transparent;
+  padding: 2px 5px;
+  margin-left: 5px;
 }
 
-.tagline a:hover{
-  padding:1px 2px;
-  margin:-2px;
-}
 
-.tagline .link-to-blog:hover{
+.nav .link-to-blog:hover{
   border-color: rgba(73, 10, 61, .5);
   background-color: rgba(73, 10, 61, .15);
 }
-.tagline .link-to-about:hover{
+.nav .link-to-about:hover{
   border-color: rgba(189, 21, 80, .5);
   background-color: rgba(189, 21, 80, .15);
 }
-.tagline .link-to-esoteric:hover{
+.nav .link-to-thanks:hover{
   border-color: rgba(233, 127, 2, .5);
   background-color: rgba(233, 127, 2, .15);
 }
-.tagline .link-to-software:hover{
+.nav .link-to-software:hover{
   border-color: rgba(248, 202, 0, .5);
   background-color: rgba(248, 202, 0, .15);
 }
-.tagline .link-to-development:hover{
+.nav .link-to-development:hover{
   border-color: rgba(138, 155, 15, .5);
   background-color: rgba(138, 155, 15, .15);
 }
@@ -119,14 +121,24 @@ a.logo:hover{
 .page-contents p{
 }
 
-.poem {
+
+
+/* Footer */
+.footer{
   text-align: center;
+  padding-bottom: 1.0rem;
 }
-
-.poem p {
-  white-space: pre-line;
+.footer-text{
+  display:inline-block;
+  color:#BBB;
+  font-size:0.8rem;
+  padding:0.25rem 5.0rem;
+  border-top:1px solid #DDD;
 }
-
-.poem i[class*="curly"] {
-  color: #aaa;
+.footer a{
+  color:#BBB;
+  text-decoration: none;
+}
+.footer a:hover{
+  color:#888;
 }
