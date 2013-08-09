@@ -121,6 +121,16 @@ a.logo:hover{
 .page-contents p{
 }
 
+.page-title{
+  text-align: center;
+  display:block;
+  border-bottom:1px solid #CCC;
+  font-size:2rem;
+  margin-bottom: 2.0rem;
+  padding-bottom:1.0rem;
+  line-height: 1.0;
+  font-weight: bold;
+}
 
 
 /* Footer */
