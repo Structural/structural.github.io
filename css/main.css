@@ -77,11 +77,11 @@ a.logo:hover{
   border-color: rgba(233, 127, 2, .5);
   background-color: rgba(233, 127, 2, .15);
 }
-.nav .link-to-software:hover{
+.nav .link-to-projects:hover{
   border-color: rgba(248, 202, 0, .5);
   background-color: rgba(248, 202, 0, .15);
 }
-.nav .link-to-development:hover{
+.nav .link-to-unemployment:hover{
   border-color: rgba(138, 155, 15, .5);
   background-color: rgba(138, 155, 15, .15);
 }
