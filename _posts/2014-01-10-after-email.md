@@ -47,7 +47,7 @@ IM, forums, [Reddit Clones](http://ryancarson.com/post/49494542970/how-to-use-a-
 
 How can we try something different?  The goal here shouldn’t be to create another system that we use instead of email.  The goal should be to take the shape and texture of email, that has worked so well when it works, and rip out the pipes, which have failed so spectacularly when they fail.
 
-Just as a smartphones still make phone calls, such a system won’t be able to rid itself of email altogether.  When you have to communicate with clients and customers outside of the system, the system will need to send legacy emails to those external contacts and pull their replies back into the system.   If it can do so smoothly enough that the outside cotnacts don’t mind, then we get the best of both worlds: rich shared data internally, without having to use a separate system to talk outside the walls.
+Just as a smartphones still make phone calls, such a system won’t be able to rid itself of email altogether.  When you have to communicate with clients and customers outside of the system, the system will need to send legacy emails to those external contacts and pull their replies back into the system.   If it can do so smoothly enough that the outside contacts don’t mind, then we get the best of both worlds: rich shared data internally, without having to use a separate system to talk outside the walls.
 
 ### So what now?
 
