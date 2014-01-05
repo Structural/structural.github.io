@@ -1,7 +1,9 @@
 ---
-layout: home
-title: "Recent Posts"
-tags: [Jekyll, theme, responsive, blog, template]
-image:
-  feature: typewriter.jpg
 ---
+
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0;url={{site.url}}/articles/after-email">
+  </head>
+</html>
