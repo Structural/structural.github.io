@@ -1,4 +1,4 @@
-title:            Structual
+title:            Structural
 tagline:          A beautiful theme.
 description:      Software guys from Boston
 #Comment out url when working locally to resolve base urls correctly
@@ -6,7 +6,7 @@ description:      Software guys from Boston
 
 # Owner/author information
 owner:
-  name:           Structual
+  name:           Structural
   avatar:         avatar.png
   bio:            "4 dudes who make software in Boston"
   email:          structural@structur.al
