@@ -20,25 +20,24 @@
     <script type="text/javascript" src="/js/footnotes.js"></script>
   </head>
   <body>
-    <div class='header-wrap'>
-      <div class='header'>
-        <a class='logo' href='/'>Structural</a>
-        <span class='nav'>
-          <a class='link-to-projects' href='/projects.html'>Projects</a>
-          <a class='link-to-about' href='/about.html'>About</a>
-          <a class='link-to-thanks' href='/thanks.html'>Recommendations</a>
+    <div class='wrapper'>
+      <div class='header-wrap'>
+        <div class='header'>
+          <a class='logo' href='/'>Structural</a>
+          <span class='nav'>
+            <a class='link-to-about' href='/about.html'>About</a>
+        </div>
       </div>
+      <div class='main-wrap'>
+        <div class="main">
+          {{ content }}
+        </div>
+      </div>
+      <div class='push'></div>
     </div>
-    <div class='main-wrap'>
-      <div class="main">
-        {{ content }}
-      </div>
-    </div>
-    <div class='footer-wrap'>
-      <div class='footer'>
-        <div class='footer-text'>
-        Structural  |  Boston, MA  |  <a href='https://twitter.com/structuralists' target='_blank'>@strucutralists</a>
-      </div>
+    <div class='footer'>
+      <div class='footer-text'>
+        <a href='/about.html'>Structural</a>  |  Boston, MA  |  <a href='https://twitter.com/structuralists' target='_blank'>@strucutralists</a>
       </div>
     </div>
   </body>
