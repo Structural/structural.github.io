@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: post-no-feature
 permalink: /about/index.html
 title: About Structural
 tags: [about, Jekyll, theme, responsive]
-image:
-  feature: soft-trees.jpg
 ---
 
 Structural is a team of four guys in Boston, MA that like building software.
