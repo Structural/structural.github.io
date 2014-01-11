@@ -18,7 +18,7 @@ owner:
 # For external links add external: true
 links:
   - title: About
-    url: /about/
+    url: about/
   - title: Twitter
     url: http://twitter.com/structuralists
     external: true
