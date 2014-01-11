@@ -1,4 +1,0 @@
-name: Your New Jekyll Site
-pygments: true
-exclude: ['*.sublime-project', '*.sublime-workspace']
-permalink: '/:title/'
