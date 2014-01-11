@@ -8,7 +8,7 @@ image:
 tags: [transparency, email, watercooler]
 ---
 
-Stripe wants their email to be almost entirely transparent.  To accomplish this, they have 119 mailing lists, custom-built tool to manage them, and a horde of filters to handle them on the receiving end.  It’s an impressive engineering effort, but their description feels an awful lot like a bunch of work to paper over a kludge.
+Stripe wants their email to be almost entirely transparent.  To accomplish this, they have 119 mailing lists, a custom-built tool to manage them, and a horde of filters to handle them on the receiving end.  It’s an impressive engineering effort, but their description feels an awful lot like a bunch of work to paper over a kludge.
 
 * [https://stripe.com/blog/email-transparency](https://stripe.com/blog/email-transparency)
 * [http://blog.alexmaccaw.com/stripes-culture](http://blog.alexmaccaw.com/stripes-culture)
