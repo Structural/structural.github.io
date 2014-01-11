@@ -1,8 +1,10 @@
 ---
-layout: post-no-feature
+layout: post
 title: "After Email"
 description: " "
 category: articles
+image:
+  feature: script.jpg
 tags: [transparency, email, watercooler]
 ---
 
