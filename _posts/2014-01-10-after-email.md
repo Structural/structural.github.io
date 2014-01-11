@@ -4,7 +4,7 @@ title: "After Email"
 description: " "
 category: articles
 image:
-  feature: script.jpg
+  feature: palimpsest.jpg
 tags: [transparency, email, watercooler]
 ---
 
