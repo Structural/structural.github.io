@@ -861,8 +861,7 @@ footer small {
   position: absolute;
   bottom: 8px;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
-  text-transform: uppercase;
-  color: rgba(249, 249, 249, 0.1);
+  color: rgba(249, 249, 249, 0.3);
 }
 footer a {
   color: rgba(249, 249, 249, 0.5);
