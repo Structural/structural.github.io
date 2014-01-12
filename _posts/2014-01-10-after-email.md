@@ -47,12 +47,12 @@ The most important way it’s going to deviate from email is that you need to ha
 But plenty of other systems have tried and failed to replace email:  IRC,
 IM, forums, [Reddit Clones](http://ryancarson.com/post/49494542970/how-to-use-a-reddit-clone-to-boost-company-culture), Facebook Groups, [Yammer](http://yammer.com), [Glassboard](http://glassboard.com/), and a [slew](https://campfirenow.com/) of [web](https://hall.com/) [based](https://slack.com/) [chat](https://www.hipchat.com/) [clients](https://www.flowdock.com/).
 
-How can we try something different?  The goal here shouldn’t be to create another system that we use instead of email.  The goal should be to take the shape and texture of email, that has worked so well when it works, and rip out the pipes, which have failed so spectacularly when they fail.
+How can we try something different?  The goal here shouldn’t be to create another system that we use instead of email.  The goal should be to take the shape and texture of email, that has worked so well when it works, and replace the pipes, which have failed so spectacularly when they fail.
 
-Just as a smartphones still make phone calls, such a system won’t be able to rid itself of email altogether.  When you have to communicate with clients and customers outside of the system, the system will need to send legacy emails to those external contacts and pull their replies back into the system.   If it can do so smoothly enough that the outside contacts don’t mind, then we get the best of both worlds: rich shared data internally, without having to use a separate system to talk outside the walls.
+Just as smartphones still make phone calls, such a system won’t be able to rid itself of email altogether.  When you have to communicate with clients and customers outside of the system, the system will need to send legacy emails to those external contacts and pull their replies back into the system.   If it can do so smoothly enough that the outside contacts don’t mind, then we get the best of both worlds: rich shared data internally, without having to use a separate system to talk outside the walls.
 
 ### So what now?
 
-If you haven’t guessed yet, we’re working on building something that does just this.  We call it “Water Cooler” because we want you to communicate online as easily as you do around the office.  If you want us to let you know when it’s ready, sign up to [get notified](https://docs.google.com/forms/d/15BSfBgGhpcOQv4P7zybUC73ts6q7nWeaJ855yREDnSk/viewform).
+If you haven’t guessed yet, we’re working on building something that does just this.  We call it “Water Cooler” because we want communication online to be as easy as around the office.  If you want us to let you know when it’s ready, sign up to [get notified](https://docs.google.com/forms/d/15BSfBgGhpcOQv4P7zybUC73ts6q7nWeaJ855yREDnSk/viewform).
 
 If this resonated with you, keep the conversation going: hit us up at [structural@structur.al](mailto:structural@structur.al).  We’d love to talk.
