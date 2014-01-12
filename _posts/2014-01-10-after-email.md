@@ -44,7 +44,7 @@ Even if we come at this with no preconceptions, we don’t want to lose the thin
 
 The most important way it’s going to deviate from email is that you need to have canonical copies of our communication that the right people have access to, rather than each person having a separate copy.  This is the only way to share everything, both when it’s created and when it’s changed, and give it to the people who it’s meant for right now, and the people who are going to need it in the future.  The fundamental fact is this: if you want your team to all have a common understanding of the data, the data itself needs to be held in common, not fragmented across users and devices.
 
-But plenty of other systems have tried and failed to replace email:  IRC,
+But plenty of other systems have failed to replace email:  IRC,
 IM, forums, [Reddit Clones](http://ryancarson.com/post/49494542970/how-to-use-a-reddit-clone-to-boost-company-culture), Facebook Groups, [Yammer](http://yammer.com), [Glassboard](http://glassboard.com/), and a [slew](https://campfirenow.com/) of [web](https://hall.com/) [based](https://slack.com/) [chat](https://www.hipchat.com/) [clients](https://www.flowdock.com/).
 
 How can we try something different?  The goal here shouldn’t be to create another system that we use instead of email.  The goal should be to take the shape and texture of email, that has worked so well when it works, and replace the pipes, which have failed so spectacularly when they fail.
