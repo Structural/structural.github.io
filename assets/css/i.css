@@ -133,10 +133,11 @@ p {
   line-height: 1.4em;
 }
 
-.post ul li {
+.post ul li, .post ol li {
   font-size: 22px;
   line-height: 33px;
   margin-bottom: 11px;
+  margin-left: 66px;
 }
 
 /* Headings
@@ -188,10 +189,11 @@ blockquote, blockquote p {
     line-height: 1.4em;
   }
 
-  .post ul li {
+  .post ul li, .post ol li {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 12px;
+    margin-left: 24px;
   }
 
   h1, .h1 {
@@ -762,7 +764,6 @@ header.site-header nav ul li a:hover {
 .post ul li {
   list-style: disc;
   list-style-type: disc;
-  margin-left: 66px;
   padding-left: 11px;
 }
 .post ul li:last-child {
@@ -776,11 +777,7 @@ header.site-header nav ul li a:hover {
   border-bottom: 2px solid #d9d9d9;
 }
 .post ol li {
-  margin-left: 66px;
   padding-left: 11px;
-  margin-bottom: 11px;
-  line-height: 33px;
-  font-size: 22px;
 }
 .post ol li:last-child {
   margin-bottom: 0;

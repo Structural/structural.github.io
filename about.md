@@ -7,6 +7,13 @@ tags: [about, Jekyll, theme, responsive]
 
 Structural is a team of four guys in Boston, MA that like building software.
 
+### Structuralists
+
+* Ben Jones ([@bcjonesey](https://twitter.com/BCJonesey))
+* Sean Kermes
+* Will Lubelski ([@uiwill](https://twitter.com/uiwill))
+* Nick Martin ([@n_w_martin](https://twitter.com/n_w_martin))
+
 ### Recommendations
 
 * [Watertown Free Public Library](http://watertownlib.org/)
