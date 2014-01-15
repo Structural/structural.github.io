@@ -56,4 +56,8 @@ Just as smartphones still make phone calls, such a system won’t be able to rid
 
 If you haven’t guessed yet, we’re working on building something that does just this.  We call it “Water Cooler” because we want communication online to be as easy as around the office.  If you want us to let you know when it’s ready, sign up to [get notified](https://docs.google.com/forms/d/15BSfBgGhpcOQv4P7zybUC73ts6q7nWeaJ855yREDnSk/viewform).
 
-If this resonated with you, keep the conversation going: hit us up at [structural@structur.al](mailto:structural@structur.al).  We’d love to talk.
+If this resonated with you, keep the conversation going: hit us up at [structural@structur.al](mailto:structural@structur.al).[^1]  We’d love to talk.
+
+---
+
+[^1]: Yes, we are aware of the irony of using email to discuss a replacement for email.  
