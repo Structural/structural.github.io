@@ -177,7 +177,11 @@ blockquote, blockquote p {
 .archive input {
   font-size: 48px;
 }
-
+sup{
+  vertical-align: super;
+  font-size: 0.8em;
+  padding: 3px;
+}
 @media only screen and (max-width: 480px) {
   p {
     font-size: 16px;
