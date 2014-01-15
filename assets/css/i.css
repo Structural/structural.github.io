@@ -585,14 +585,25 @@ header.site-header nav ul li a:hover {
   width: 100%;
   margin-top: 0;
 }
-.article header hgroup .date {
+.article header hgroup .attribution {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: #d9d9d9;
-  text-transform: uppercase;
   margin-top: 22px;
 }
+
+.article header hgroup .author{
+  font-size: 14px;
+  font-weight: bold;
+  color: #CCC;
+}
+
+.article header hgroup .date{
+  font-size:16px;
+  font-weight: normal;
+  color:#DDD;
+  margin-top:10px;
+  /*display:block;*/
+}
+
 .article header .intro {
   text-align: left;
 }

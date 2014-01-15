@@ -5,6 +5,7 @@ description: " "
 category: articles
 image:
   feature: palimpsest.jpg
+author: "Sean Kermes and William Lubelski"
 tags: [transparency, email, watercooler]
 ---
 
