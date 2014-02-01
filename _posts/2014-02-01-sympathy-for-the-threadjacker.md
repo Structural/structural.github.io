@@ -33,6 +33,6 @@ Despite all that, we don’t think email is broken, though that [leaves us in ra
 
 All the care and thoughtfulness in the world won’t keep threads from getting jacked.  Humans with the best of intentions will still start new conversations in the middle of old ones.  The only way forward is to acknowledge that and work with it, instead of hoping and pretending that it won’t or shouldn’t happen.  We need tools that let us rearrange the flow of a conversation as it’s happening, to channel its offshoots into spillways instead of giving it no option but to overflow its banks.
 
-### If it's no one's fault, how do I fix it?
+### If it's no one's fault, how do we fix it?
 
 Email can’t do that, and it’s not just a problem with your client.  Emails can’t be changed after they’re sent, so there’s no way to make them respond to inherent human fallibility.  We’re building what we think is the answer (it’s called Water Cooler, we’ve been dogfooding it for a while now and we think it’s great).  If you’re interested, we’d love to talk to you about it - drop us a line at [structural@structur.al](mailto:structural@structur.al).
