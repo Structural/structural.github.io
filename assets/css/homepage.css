@@ -19,9 +19,9 @@
 }
 
 .homepage .banner {
-  position: absolute;
-  left: 0;
-  top: 1.5em;
+  position: relative;
+  display: inline-block;
+  margin-top: 1.5em;
 
   font-size: 200%;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
