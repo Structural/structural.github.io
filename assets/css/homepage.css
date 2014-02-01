@@ -17,3 +17,21 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.homepage .banner {
+  position: absolute;
+  left: 0;
+  top: 1.5em;
+
+  font-size: 200%;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-weight: bold;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 4em;
+}
