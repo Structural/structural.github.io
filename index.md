@@ -1,10 +1,5 @@
 ---
+layout: fuckyoujekyll
 ---
 
-<!-- <!doctype html>-->
-
- <html>
-  <head>
-    <meta http-equiv="refresh" content="0;url={{site.url}}/articles/after-email">
-  </head>
-</html>
+<div class="background" style="background-image: url({{ site.url }}/images/bridge.png)"></div>
