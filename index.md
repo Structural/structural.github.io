@@ -7,6 +7,8 @@ layout: fuckyoujekyll
 <div class="banner">
   STRUCTURAL
 </div>
+<div class="spacer"></div>
+
 <div class="article-tease">
   We're moving past the age in which email serves all our communication needs.
   How is it failing us, and how are we going to replace it?
@@ -14,6 +16,8 @@ layout: fuckyoujekyll
     <a href="{{ site.url }}/articles/after-email">After Email</a>
   </span>
 </div>
+<div class="spacer"></div>
+
 <div class="article-tease">
   We all fall down sometimes, and when we fall down with email it hurts everyone
   around us.  We need our tools to prop us up when we have a bad day.
