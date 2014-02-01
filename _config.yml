@@ -2,7 +2,7 @@ title:            Structural
 tagline:          A beautiful theme.
 description:      Software guys from Boston
 #Comment out url when working locally to resolve base urls correctly
-# url: http://structur.al
+url: http://structur.al
 
 # Owner/author information
 owner:
