@@ -35,3 +35,7 @@
   padding-bottom: 0.5em;
   padding-right: 4em;
 }
+
+.homepage .article-tease {
+  position: relative;
+}
