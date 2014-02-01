@@ -5,6 +5,9 @@ description: " "
 category: articles
 image:
   feature: thread.jpg
+  attribution:
+    url: http://www.flickr.com/photos/hisgett/504356532/
+    text: "Photo by Tony Hsigett"
 author: "Sean Kermes and William Lubelski"
 tags: [email, watercooler, threads]
 ---

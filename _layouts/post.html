@@ -5,6 +5,11 @@
 {% if page.image.feature %}
   <div class="overlay"></div>
   <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
+  {% if page.image.attribution %}
+    <div class="image-attribution">
+      <a href="{{ page.image.attribution.url }}">{{ page.image.attribution.text }}</a>
+    </div>
+  {% endif %}
 {% else %}
   <div class="overlay"></div>
   <div class="featured-image" style="background-image: url({{ site.url }}/images/typewriter.jpg)"></div>
@@ -46,7 +51,6 @@
 
 
       </article>
-
     </section>
 </div>
 
