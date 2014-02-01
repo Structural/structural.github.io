@@ -25,3 +25,9 @@ layout: fuckyoujekyll
     <a href="{{ site.url }}/articles/sympathy-for-the-threadjacker">Sympathy for the Threadjacker</a>
   </span>
 </div>
+
+<div class="attribution">
+  <a href="http://www.flickr.com/photos/31246066@N04/8751675163/">
+    Photo by Ian Sane
+  </a>
+</div>
