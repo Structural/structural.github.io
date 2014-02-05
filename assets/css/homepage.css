@@ -130,6 +130,7 @@ div, span{
     padding:0 !important;
   }
   .homepage .article-tease{
+    max-width: none;
     display: block !important;
     margin-left: 0.5rem !important;
     margin-top:1.0rem;
