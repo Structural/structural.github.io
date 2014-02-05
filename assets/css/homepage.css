@@ -7,7 +7,8 @@ a{
   -o-transition: background-color 1s, color 1s;
   transition: background-color 1s, color 1s;
 }
-  .homepage {
+
+.homepage {
   margin: 0;
   padding: 0;
 
@@ -63,31 +64,33 @@ a{
   max-width: 40em;
   line-height: 1.5
 }
-.article-tease-1{margin-left:4rem;}
+.homepage .article-tease-1{margin-left:4rem;}
 
-.article-tease-2{margin-left:8rem;}
+.homepage .article-tease-2{margin-left:8rem;}
 
-.spacer{
+.homepage .spacer{
   height:1.0rem;
 }
-.teaser-text{
+.homepage .teaser-text{
   display:block;
   padding-right:7.0rem;
   cursor:default;
 }
-.article-title {
+.homepage .article-title {
   padding-top:0.35rem;
   text-align: right;
 }
-.article-title a{
+.homepage .article-title a{
   display:inline-block;
 
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   background-color: transparent;
-  color:rgba(0,0,0,0.2);
+  color:rgba(0,0,0,0.4);
+  margin-top:0.15rem;
   padding: 0.15rem 0.75rem;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 
@@ -115,18 +118,20 @@ a{
   cursor: pointer;
   font-size: 1.25rem;
   text-transform: uppercase;
+  letter-spacing: 1px;
+
 }
 
 .homepage-footer a:hover{
   color:white;
 }
 
-.attribution{
+.homepage .attribution{
   position: absolute;
   bottom: 0;
   right:0;
 }
-.attribution a{
+.homepage .attribution a{
   display:inline-block;
   color:rgba(255,255,255,0.7);
   font-style: italic;
@@ -136,7 +141,7 @@ a{
   text-shadow:1px 1px rgba(128,128,128,0.5);
 
 }
-.attribution a:hover{
+.homepage .attribution a:hover{
   color:white;
 }
 
@@ -145,7 +150,7 @@ a{
     margin-top:0;
     display:block;
   }
-  .teaser-text{
+  .homepage .teaser-text{
     padding:0 !important;
   }
   .homepage .article-tease{
@@ -155,7 +160,7 @@ a{
     margin-top:1.0rem;
     margin-right: 0.5rem !important;
   }
-  .attribution{
+  .homepage .attribution{
     position:relative;
     margin:1.0rem;
     text-align: right;

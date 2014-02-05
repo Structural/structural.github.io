@@ -22,14 +22,14 @@ The problem with threadjacking isn’t that we started out talking about the big
 
 ### So it's all Joe's fault?
 
-It’s easy to wag our fingers at Joe and say that he should have been more careful, or that everyone else should have moved to a new thread, but the real problem is that email isn’t flexible enough to handle real human communication.  Real people are fallible and messy.  Any system that doesn’t allow for that makes our jobs (which are hard and stressful enough as it is) harder and more stressful.
+It’s easy to wag our fingers at Joe and say that he should have been more careful, or that everyone else should have moved to a new thread, but the real problem is that email isn’t flexible enough to handle real human communication.  Real people are fallible and messy.  Any system that doesn’t allow for that reality makes our jobs (which are hard and stressful enough as it is) harder and more stressful.
 
 Once you send an email message it’s stuck that way forever.  You can’t change the subject line so that replies to it form a new thread.  When someone adds you to a thread you don’t want to be on, you can’t take yourself off.  You can’t go back and clear out the nonsense from old threads so that you don’t have to sift through it later.
 Email makes it impossible to prevent threadjacking, and impossible to fix it when it happens.
 
 ### It's Outlook's fault then
 
-Despite all that, we don’t think email is broken, though that [leaves us in rare company](https://www.google.com/search?hl=en&q=email%20is%20broken).  Email isn’t broken, it just wasn’t designed for how we use it today.  Over the last thirty years, we’ve accumulated a host of patterns and practices that have been baked into our email clients, but the underlying mail protocol hasn’t changed.  Every modern mail client can organize email into threads, but the mail protocol itself doesn’t deal with threads, just messages.  Email works as far as it goes, but we’ve grown into a world where we need to go much further.
+Despite all that, email isn’t broken ([though many might disagree](https://www.google.com/search?hl=en&q=email%20is%20broken)). It just wasn’t designed for how we use it today.  Over the last thirty years, we’ve accumulated a host of patterns and practices that have been baked into our email clients, but the underlying mail protocol hasn’t changed.  Every modern mail client can organize email into threads, but the mail protocol itself doesn’t deal with threads, just messages.  Email works as far as it goes, but we’ve grown into a world where we need to go much further.
 
 All the care and thoughtfulness in the world won’t keep threads from getting jacked.  Humans with the best of intentions will still start new conversations in the middle of old ones.  The only way forward is to acknowledge that and work with it, instead of hoping and pretending that it won’t or shouldn’t happen.  We need tools that let us rearrange the flow of a conversation as it’s happening, to channel its offshoots into spillways instead of giving it no option but to overflow its banks.
 
