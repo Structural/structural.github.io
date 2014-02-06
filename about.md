@@ -8,7 +8,7 @@ tags: [about, Jekyll, theme, responsive]
 Structural is a team of four guys in Boston, MA.
 
 * Follow us at [@structuralists](http://twitter.com/structuralists)
-* Contact us at [structural@structur.al](strucutral@structur.al)
+* Contact us at [structural@structur.al](mailto:strucutral@structur.al)
 
 ### Structuralists
 
