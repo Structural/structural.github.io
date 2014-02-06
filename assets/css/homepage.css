@@ -82,7 +82,7 @@ a{
 }
 .homepage .article-title a{
   display:inline-block;
-
+  cursor:pointer;
   font-weight: bold;
   font-size: 1.1rem;
   background-color: transparent;
