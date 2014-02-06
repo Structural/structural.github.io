@@ -1075,3 +1075,7 @@ footer .list-title {
 .image-attribution a:active {
   color: white;
 }
+
+.post{
+  clear:both;
+}
