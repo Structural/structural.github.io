@@ -1,30 +1,40 @@
 ---
 layout: page
-title: About
+title: Who are these Structural people
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Structural is four guys from Boston.  You should
+[follow us on Twitter](http://twitter.com/structuralists).  In the past, we've
+made several uproarious twitter jokes such as
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<blockquote class="twitter-tweet" lang="en"><p>hyphen-case&#10;-kebab-case-&#10;|—rotisserie-case—|&#10;¯\_(s h r u g c a s e)_/¯&#10;👻Scooby😱Doo🔎Case🚓</p>&mdash; Structural (@structuralists) <a href="https://twitter.com/structuralists/status/473150223750266881">June 1, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-There are currently two themes built on Poole:
+If you want more dumb stuff like that, we got you covered.  Twitter not for you?
+You're probably literally a dinosaur, like, a pterodactyl.  (Hey,
+congrats on the whole flying thing.)  That's cool though - hit us up on
+email: [structural@structur.al](mailto:structural@structur.al)
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+We also [publish some code on Github](https://github.com/Structural).
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## But who are you individually?
 
-## Setup
+You should really just skip this section.  We're all pretty much the worst, I
+promise you don't want to invite us over for dinner or anything.  If you really
+want to pull back that curtain, though...
 
-Some fun facts about the setup of this project include:
+* William Lubelski ([@uiwill](http://twitter.com/uiwill))
+* Nick Martin ([@n_w_martin](http://twitter.com/n_w_martin))
+* Sean Kermes is not on Twitter because he is a dinosaur (Stegosaurus)
+* Ben Jones ([@bcjonesey](http://twitter.com/bcjonesey))
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+## Do you have any random links to stuff you think I should see?
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+Why yes, yes we do!  Thanks so much for asking.
 
-Thanks for reading!
+* [Watertown Free Public Library](http://watertownlib.org/)
+* [Heroku](http://watertownlib.org/)
+* [ReactJS](https://facebook.github.io/react/)
+* [William Gibson's late period novels](https://en.wikipedia.org/wiki/William_Gibson#Late_period_novels)
+* [Anna's Tacqueria](http://www.annastaqueria.com/)
+* [Ani's](http://anistakeout.com/)
