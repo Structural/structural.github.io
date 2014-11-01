@@ -4,9 +4,9 @@ title: Who are these Structural people
 link_text: About
 ---
 
-Structural is four guys from Boston.  You should
-[follow us on Twitter](http://twitter.com/structuralists).  In the past, we've
-made several uproarious twitter jokes such as
+Structural is four guys from Boston.  We build software, like
+[Water Cooler](http://watercooler.io), whose beta you should totally sign up
+for.  You should also [follow us on Twitter](http://twitter.com/structuralists).  In the past, we've made several uproarious twitter jokes such as
 
 <blockquote class="twitter-tweet" lang="en"><p>hyphen-case&#10;-kebab-case-&#10;|—rotisserie-case—|&#10;¯\_(s h r u g c a s e)_/¯&#10;👻Scooby😱Doo🔎Case🚓</p>&mdash; Structural (@structuralists) <a href="https://twitter.com/structuralists/status/473150223750266881">June 1, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
