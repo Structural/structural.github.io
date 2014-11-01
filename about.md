@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Who are these Structural people
+link_text: About
 ---
 
 Structural is four guys from Boston.  You should
