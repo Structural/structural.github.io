@@ -14,3 +14,5 @@ url:              http://structur.al
 baseurl:          /
 
 paginate:         5
+
+default_image:    'bridge.jpg'

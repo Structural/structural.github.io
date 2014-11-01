@@ -1,4 +1,8 @@
 <div class="sidebar">
+  <div class="sidebar-image">
+    <img src="{{ site.baseurl }}public/{% if page.image %}{{ page.image }}{% else %}{{ site.default_image }}{% endif %}" />
+  </div>
+
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
