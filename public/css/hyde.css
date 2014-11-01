@@ -57,6 +57,7 @@ html {
   text-align: center;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  position: relative;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -72,21 +73,20 @@ html {
 /* Sidebar image */
 .sidebar .sidebar-image {
   display: none;
-  position: relative;
 }
 @media (min-width: 48em) {
   .sidebar .sidebar-image {
     display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
   }
 
-  .sidebar .sidebar-image:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 40%;
-    background-image: linear-gradient(to top, #202020, #202020 5%, transparent);
+  .sidebar .container {
+    background: rgba(32, 32, 32, 0.7);
   }
 }
 
