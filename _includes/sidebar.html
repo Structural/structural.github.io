@@ -29,7 +29,11 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="#">TODO: Twitter etc</a>
+      <span class="sidebar-nav-item" href="#">
+        {% for social in site.social_links %}
+          <a href="{{ social.url }}"><i class="fa fa-{{ social.icon }}"></i></a>
+        {% endfor %}
+      </span>
     </nav>
   </div>
 </div>
