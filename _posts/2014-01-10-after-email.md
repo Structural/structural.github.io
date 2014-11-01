@@ -1,12 +1,8 @@
 ---
 layout: post
 title: "After Email"
-description: " "
-category: articles
-image:
-  feature: palimpsest.jpg
+image: palimpsest.jpg
 author: "Sean Kermes and William Lubelski"
-tags: [transparency, email, watercooler]
 ---
 
 Stripe wants their email to be almost entirely transparent.  To accomplish this, they have 119 mailing lists, a custom-built tool to manage them, and a horde of filters to handle them on the receiving end.  It’s an impressive engineering effort, but their description feels an awful lot like a bunch of work to paper over a kludge.
@@ -54,6 +50,4 @@ Just as smartphones still make phone calls, such a system won’t be able to rid
 
 ### So what now?
 
-If you haven’t guessed yet, we’re working on building something that does just this.  We call it “Water Cooler” because we want communication online to be as easy as around the office.  If you want us to let you know when it’s ready, sign up to [get notified](https://docs.google.com/forms/d/15BSfBgGhpcOQv4P7zybUC73ts6q7nWeaJ855yREDnSk/viewform).
-
-If this resonated with you, keep the conversation going: send us an email at [structural@structur.al](mailto:structural@structur.al).  We're trying to make that the last email you ever have to send, and we’d love to talk.
+If you haven’t guessed yet, we’re working on building something that does just this.  We call it “Water Cooler” because we want communication online to be as easy as around the office.  If you want us to let you know when it’s ready, [sign up for the beta](http://watercooler.io).

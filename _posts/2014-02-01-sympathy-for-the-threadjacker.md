@@ -1,15 +1,8 @@
 ---
 layout: post
 title: "Sympathy for the Threadjacker"
-description: " "
-category: articles
-image:
-  feature: thread.jpg
-  attribution:
-    url: http://www.flickr.com/photos/hisgett/504356532/
-    text: "Photo by Tony Hsigett"
+image: thread.jpg
 author: "Sean Kermes and William Lubelski"
-tags: [email, watercooler, threads]
 ---
 
 Human conversation is naturally fluid; we segue from one topic to the next all the time, often without noticing it.  This works perfectly for a group of people talking, whether at a house party or in a conference room.  But it falls down horribly over email, where that kind of flow from subject to subject is known as *threadjacking*, and it is a huge pain in the ass.
@@ -35,4 +28,4 @@ All the care and thoughtfulness in the world won’t keep threads from getting j
 
 ### If it's no one's fault, how do we fix it?
 
-Email can’t do that, and it’s not just a problem with your client.  Emails can’t be changed after they’re sent, so there’s no way to make them respond to inherent human fallibility.  We’re building what we think is the answer (it’s called Water Cooler, we’ve been dogfooding it for a while now and we think it’s great).  If you’re interested, we’d love to talk to you about it - drop us a line at [structural@structur.al](mailto:structural@structur.al).
+Email can’t do that, and it’s not just a problem with your client.  Emails can’t be changed after they’re sent, so there’s no way to make them respond to inherent human fallibility.  We’re building what we think is the answer (it’s called Water Cooler, we’ve been dogfooding it for a while now and we think it’s great).  If you’re interested, [sign up for the beta](http://watercooler.io).

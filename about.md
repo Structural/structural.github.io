@@ -1,26 +1,41 @@
 ---
-layout: post-no-feature
-permalink: /about/index.html
-title: About Structural
-tags: [about, Jekyll, theme, responsive]
+layout: page
+title: Who are these Structural people
+link_text: About
 ---
 
-Structural is a team of four guys in Boston, MA.
+Structural is four guys from Boston.  We build software, like
+[Water Cooler](http://watercooler.io), whose beta you should totally sign up
+for.  You should also [follow us on Twitter](http://twitter.com/structuralists).  In the past, we've made several uproarious twitter jokes such as
 
-* Follow us at [@structuralists](http://twitter.com/structuralists)
-* Contact us at [structural@structur.al](mailto:strucutral@structur.al)
+<blockquote class="twitter-tweet" lang="en"><p>hyphen-case&#10;-kebab-case-&#10;|—rotisserie-case—|&#10;¯\_(s h r u g c a s e)_/¯&#10;👻Scooby😱Doo🔎Case🚓</p>&mdash; Structural (@structuralists) <a href="https://twitter.com/structuralists/status/473150223750266881">June 1, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Structuralists
+If you want more dumb stuff like that, we got you covered.  Twitter not for you?
+You're probably literally a dinosaur, like, a pterodactyl.  (Hey,
+congrats on the whole flying thing.)  That's cool though - hit us up on
+email: [structural@structur.al](mailto:structural@structur.al)
 
-* Ben Jones ([@bcjonesey](https://twitter.com/BCJonesey))
-* Sean Kermes
-* Will Lubelski ([@uiwill](https://twitter.com/uiwill))
-* Nick Martin ([@n_w_martin](https://twitter.com/n_w_martin))
+We also [publish some code on Github](https://github.com/Structural).
 
-### Recommendations
+## But who are you individually?
+
+You should really just skip this section.  We're all pretty much the worst, I
+promise you don't want to invite us over for dinner or anything.  If you really
+want to pull back that curtain, though...
+
+* William Lubelski ([@uiwill](http://twitter.com/uiwill))
+* Nick Martin ([@n_w_martin](http://twitter.com/n_w_martin))
+* Sean Kermes is not on Twitter because he is a dinosaur (Stegosaurus)
+* Ben Jones ([@bcjonesey](http://twitter.com/bcjonesey))
+
+## Do you have any random links to stuff you think I should see?
+
+Why yes, yes we do!  Thanks so much for asking.
 
 * [Watertown Free Public Library](http://watertownlib.org/)
-* [Heroku](http://heroku.com)
-* [Backbone.js](http://backbonejs.org/)
-* [Pattern Recognition](http://amzn.com/0425198685), [Spook Country](http://amzn.com/0399154302), [Zero History](http://amzn.com/0425240770)
-
+* [Heroku](http://watertownlib.org/)
+* [ReactJS](https://facebook.github.io/react/)
+* [William Gibson's late period novels](https://en.wikipedia.org/wiki/William_Gibson#Late_period_novels)
+* [Anna's Tacqueria](http://www.annastaqueria.com/)
+* [Ani's](http://anistakeout.com/)
