@@ -3,12 +3,11 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:           /:title
 relative_permalinks: true
 
 # Setup
 title:            Structural
-tagline:          ''
 description:      'film soul-delay bridge dead alcohol skyscraper city boat pre- rain car assault sprawl semiotics wonton soup savant. construct '
 url:              http://structur.al
 baseurl:          /
