@@ -17,6 +17,7 @@
 /*
  * Contents
  *
+ * Fonts
  * Global resets
  * Sidebar
  * Container
@@ -24,6 +25,21 @@
  * Themes
  */
 
+/*
+ * Fonts
+ */
+
+@font-face {
+    font-family: 'TratexVit';
+    src: url('/public/fonts/tratv___-webfont.eot');
+    src: url('/public/fonts/tratv___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/tratv___-webfont.woff2') format('woff2'),
+         url('/public/fonts/tratv___-webfont.woff') format('woff'),
+         url('/public/fonts/tratv___-webfont.ttf') format('truetype'),
+         url('/public/fonts/tratv___-webfont.svg#tratexvitregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*
  * Global resets
@@ -99,8 +115,9 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "TratexVit", serif;
   font-size: 3.25rem;
+  letter-spacing: -0.5rem;
 }
 
 /* Sidebar nav */

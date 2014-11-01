@@ -342,6 +342,8 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin-top: 0;
+  font-family: 'TratexVit';
+  letter-spacing: -0.25rem;
 }
 
 /* Meta data line below post title */
