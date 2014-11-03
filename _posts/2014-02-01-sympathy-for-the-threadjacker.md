@@ -28,4 +28,4 @@ All the care and thoughtfulness in the world won’t keep threads from getting j
 
 ### If it's no one's fault, how do we fix it?
 
-Email can’t do that, and it’s not just a problem with your client.  Emails can’t be changed after they’re sent, so there’s no way to make them respond to inherent human fallibility.  We’re building what we think is the answer (it’s called Water Cooler, we’ve been dogfooding it for a while now and we think it’s great).  If you’re interested, [sign up for the beta](http://watercooler.io).
+Email can’t do that, and it’s not just a problem with your client.  Emails can’t be changed after they’re sent, so there’s no way to make them respond to inherent human fallibility.  We’re building what we think is the answer (it’s called Water Cooler, we’ve been dogfooding it for a while now and we think it’s great).  If you’re interested, [sign up for the beta](http://watercooler.io?refer=blog-threadjacker).

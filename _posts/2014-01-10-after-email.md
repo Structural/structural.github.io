@@ -50,4 +50,4 @@ Just as smartphones still make phone calls, such a system won’t be able to rid
 
 ### So what now?
 
-If you haven’t guessed yet, we’re working on building something that does just this.  We call it “Water Cooler” because we want communication online to be as easy as around the office.  If you want us to let you know when it’s ready, [sign up for the beta](http://watercooler.io).
+If you haven’t guessed yet, we’re working on building something that does just this.  We call it “Water Cooler” because we want communication online to be as easy as around the office.  If you want us to let you know when it’s ready, [sign up for the beta](http://watercooler.io?refer=blog-after-email).
