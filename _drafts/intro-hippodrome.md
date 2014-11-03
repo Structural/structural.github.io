@@ -175,20 +175,16 @@ RoutingApp.Tasks.ChangeUrl = new Hippodrome.DeferredTask
     window.history.pushState(null, '', path)
 ```
 
-The ChangeUrl Task handles everything to do with reading and writing the URL,
-and also neatly solves our 404 problem.  Like Stores, Tasks take a dispatches
-list so that they can recieve actions.  Unlike Stores, Tasks shouldn't expose
-any data to the rest of your app, so they have no `public` object.  (In
-practice, this means that all Task methods are available on Task object, but
-you really just shouldn't be interacting with them like that.)
-
-This Store does two things.  It sets a `window.onpopstate` callback and
-calls `window.history.pushState` when we navigate to a new page.  Since whether
-`onpopstate` functions are called on page load varies from browser to browser,
-the Task also does an initial round of navigation when the app starts.  (In
-browsers where `onpopstate` is called on page load, this means the action will
-get fired twice.  This shouldn't be a problem though, as our Store functions
-are all simple and quick, and React makes a no-op component update fast.)
+The ChangeUrl Task illustrates the purpose of Tasks nicely.  In many ways,
+Tasks are the opposite of Stores.  Store callbacks should be entirely
+synchronous, while Task callbacks can start asynchronous operations.  The
+`onpopstate` callback we set in `setInitialPage` will fire when a user
+hits the 'back' button or otherwise updates the URL (though not after
+`pushState` calls).  Stores expose application state through the `public`
+object, Tasks might keep internal state, but shouldn't expose it to the rest of
+the app.  Stores cannot send new actions during their callbacks, often the
+entire purpose of a Task will be to do something and then send one or more
+actions when it's done.
 
 As the app accumulates more (and more complex) routes, we might want to break
 some of the URL parsing/constructing code out into a separate object, but
