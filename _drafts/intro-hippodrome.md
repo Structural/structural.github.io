@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intro to Hippodrome
+title: Flux and Chariot Racing - Welcome to the Hippodrome
 author: Sean Kermes
 image: chariot-racing.jpg
 referrer: blog-intro-hippodrome
@@ -21,6 +21,12 @@ Hippodrome does two big things.  First, it includes constructors for the
 important Flux objects an application needs (Actions, Stores) and second, it
 introduces Tasks, which are used to handle asynchronous responses to Actions.
 All of these have friendly APIs and register themselves with the Dispatcher.
+
+The introduction of Tasks lets us keep Stores and Actions focused only on domain
+logic.  Neither of them is responsible for interacting with the outside world,
+which frees them to be very simple to reason about.  In fact, once you start
+putting asynchronous and external code in Tasks, you can write the rest of your
+application almost as though they weren't happening at all.
 
 Code speaks louder than words here, so let's see some.  Here's how we've used
 Hippodrome to implement a basic router for a React app.  (Examples in
@@ -212,17 +218,6 @@ Most importantly, routing (and especially URLs) are not a view concern.  React
 components are part of an app's view layer, and they shouldn't need to know
 anything about what URL the page is currently at, or what that might mean for
 their state.
-
-If we generalize a little bit, URLs are part of everything the app considers
-the "outside world".  This also includes stuff like making AJAX requests or
-interacting with local storage.
-
-Actions and Stores are representations of your application's domain.  Actions
-are the description of what is happening in your app, and Stores are the
-repository of your application state.  As domain object, we should isolate
-them from the outside world as much as possible.  This is why using Action
-creators to handle our routing would (while not as bad as using Stores) be
-an unfortunate coupling.
 
 By isolating as much of the outside world as possible in Tasks, Actions and
 Stores can work with just domain concepts.  If, for some strange reason, we
