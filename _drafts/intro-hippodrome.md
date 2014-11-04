@@ -9,9 +9,10 @@ The ideas behind [Flux](https://github.com/facebook/flux) are great, but the
 implementation leaves a little to be desired.  The Dispatcher that Facebook
 provides works fine, but it's a little barebones - there's no structure
 for the rest of your application.  We also think that using Action creators
-to kick of asynchronous operations is the wrong idea.  Actions should just be
+to kick off asynchronous operations is the wrong idea.  Actions should just be
 descriptions of what's happening in your application, the heavy lifting should
-be done someplace else.  With that in mind, here's Hippodrome:
+be done someplace else.  With that in mind, here's
+[Hippodrome](https://github.com/Structural/hippodrome):
 
 ![Hippodrome Data Flow Diagram](/public/hippodrome-diagram.png)
 
@@ -23,6 +24,8 @@ All of these have friendly APIs and register themselves with the Dispatcher.
 Code speaks louder than words here, so let's see some.  Here's how we've used
 Hippodrome to implement a basic router for a React app.  (Examples in
 coffeescript because life is too short to write "function" all the time.)
+
+## Actions
 
 ```coffeescript
 RoutingApp.Actions = {}
@@ -45,6 +48,8 @@ stored in some convenient object, like `RoutingApp.Pages`.  Every
 Hippodrome Action is a function that builds its payload and then sends that to
 the Dispatcher, so whenever we want the app to change pages, just call
 `RoutingApp.Actions.navigate(RoutingApp.Pages.widgetList)`.
+
+## Stores
 
 ```coffeescript
 RoutingApp.Stores.PageState = new Hippodrome.Store
@@ -97,6 +102,8 @@ properties defined in `public`.  In this case, we have a function that gets
 the current page, and one that gets the current widget id (if we're on the
 widget page.)
 
+## React Component
+
 ```coffeescript
 PageState = RoutingApp.Stores.PageState
 
@@ -134,6 +141,8 @@ There are two things missing from this.  First, we aren't updating the page's
 URL when we navigate, and second, the app will always start on the 404 page,
 since that's what we initialized the PageState Store to.  Both of these are
 nicely solved with a Task:
+
+## Tasks
 
 ```coffeescript
 RoutingApp.Tasks.ChangeUrl = new Hippodrome.DeferredTask
@@ -189,3 +198,39 @@ actions when it's done.
 As the app accumulates more (and more complex) routes, we might want to break
 some of the URL parsing/constructing code out into a separate object, but
 for just a handful of routes it's fine here.
+
+## Why Flux and Hippodrome?
+
+Doing routing this way seems a little complicated, especially compared to a
+solution like [React Router](https://github.com/rackt/react-router) that packs
+all the url logic into a tree of component props.  There are a number of
+benefits though (and we promise, we're not trying to rag on React Router too
+hard, they're just a convenient example of a different design philosophy).
+
+Most importantly, routing (and especially URLs) are not a view concern.  React
+components are part of an app's view layer, and they shouldn't need to know
+anything about what URL the page is currently at, or what that might mean for
+their state.
+
+If we generalize a little bit, URLs are part of everything the app considers
+the "outside world".  This also stuff like includes making AJAX requests or
+interacting with local storage.
+
+Actions and Stores are representations of your application's domain.  Actions
+are the description of what is happening in your app, and Stores are the
+repository of your application state.  As domain object, we should isolate
+them from the outside world as much as possible.  This is why using Action
+creators to handle our routing would (while not as bad as using Stores) be
+an unfortunate coupling.
+
+By isolating as much of the outside world as possible in Tasks, Actions and
+Stores can work with just domain concepts.  If, for some strange reason, we
+needed to have the widget list url at `/all-widget-list` and the individual
+widget at `/:id/widget`, the fact that we moved all of our URL logic into the
+ChangeUrl task would let us do that without changing the domain representation
+of pages that the application uses.
+
+If you want to use Hippodrome,
+[check it out on Github](https://github.com/Structural/hippodrome).  There's a
+gem (for including in your Rails asset path) and an npm module, and some
+documentation on a few corners of the API and this post didn't cover.
