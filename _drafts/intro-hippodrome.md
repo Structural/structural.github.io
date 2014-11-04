@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Flux and Chariot Racing - Welcome to the Hippodrome
-author: Sean Kermes
-image: chariot-racing.jpg
+layout:   post
+title:    Flux and Chariot Racing - Welcome to the Hippodrome
+author:   Sean Kermes
+image:    chariot-racing.jpg
 referrer: blog-intro-hippodrome
 ---
 
