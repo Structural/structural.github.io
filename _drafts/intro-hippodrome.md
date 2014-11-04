@@ -213,7 +213,7 @@ anything about what URL the page is currently at, or what that might mean for
 their state.
 
 If we generalize a little bit, URLs are part of everything the app considers
-the "outside world".  This also stuff like includes making AJAX requests or
+the "outside world".  This also includes stuff like making AJAX requests or
 interacting with local storage.
 
 Actions and Stores are representations of your application's domain.  Actions
