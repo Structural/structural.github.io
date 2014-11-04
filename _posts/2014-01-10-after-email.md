@@ -3,6 +3,7 @@ layout: post
 title: "After Email"
 image: palimpsest.jpg
 author: "Sean Kermes and William Lubelski"
+referrer: blog-after-email
 ---
 
 Stripe wants their email to be almost entirely transparent.  To accomplish this, they have 119 mailing lists, a custom-built tool to manage them, and a horde of filters to handle them on the receiving end.  It’s an impressive engineering effort, but their description feels an awful lot like a bunch of work to paper over a kludge.

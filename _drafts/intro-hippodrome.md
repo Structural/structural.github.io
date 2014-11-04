@@ -3,6 +3,7 @@ layout: post
 title: Intro to Hippodrome
 author: Sean Kermes
 image: chariot-racing.jpg
+referrer: blog-intro-hippodrome
 ---
 
 The ideas behind [Flux](https://github.com/facebook/flux) are great, but the

@@ -3,6 +3,7 @@ layout: post
 title: "Sympathy for the Threadjacker"
 image: thread.jpg
 author: "Sean Kermes and William Lubelski"
+referrer: blog-threadjacker
 ---
 
 Human conversation is naturally fluid; we segue from one topic to the next all the time, often without noticing it.  This works perfectly for a group of people talking, whether at a house party or in a conference room.  But it falls down horribly over email, where that kind of flow from subject to subject is known as *threadjacking*, and it is a huge pain in the ass.
