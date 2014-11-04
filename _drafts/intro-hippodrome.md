@@ -233,4 +233,4 @@ of pages that the application uses.
 If you want to use Hippodrome,
 [check it out on Github](https://github.com/Structural/hippodrome).  There's a
 gem (for including in your Rails asset path) and an npm module, and some
-documentation on a few corners of the API and this post didn't cover.
+documentation on a few corners of the API this post didn't cover.
