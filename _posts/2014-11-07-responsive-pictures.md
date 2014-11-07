@@ -15,7 +15,7 @@ on the bleeding edge](http://caniuse.com/#search=picture).  There are a number
 of [older solutions](http://css-tricks.com/which-responsive-images-solution-should-you-use/)
 too, though they all have drawbacks ranging from server-side UA sniffing to
 downloading multiple copies of each image.  With React and Hippodrome, we can
-render exactly the `<img>` we want on each device
+render exactly the `<img>` we want on each device.
 
 Using React and [Hippodrome](github.com/structural/hippodrome), we can not only
 render an `<img>` tag with the right version of an image at runtime, but respond
