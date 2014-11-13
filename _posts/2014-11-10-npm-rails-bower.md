@@ -161,7 +161,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://example.com"
   spec.license       = "MIT"
 
-  spec.files         = Dir["{lib,app}/**/*"] + ["../LICENSE.txt", "../README.md"]
+  spec.files         = Dir["{lib,app}/**/*"] + ["LICENSE.txt", "README.md"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
@@ -218,7 +218,12 @@ gulp.task('copy-gem-javascript', function() {
              .pipe(gulp.dest('./rails/app/assets/javascripts'));
 });
 
-gulp.task('prepare-gem', ['set-gem-version', 'copy-gem-javascript']);
+gulp.task('copy-gem-metafiles', function() {
+  return gulp.src(['LICENSE.txt', 'README.md'])
+             .pipe(gulp.dest('./rails'));
+});
+
+gulp.task('prepare-gem', ['set-gem-version', 'copy-gem-javascript', 'copy-gem-metafiles']);
 ```
 
 Fortunately, the default bundler setup breaks the gem's version out into its own
