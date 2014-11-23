@@ -50,7 +50,7 @@ App.Tasks.UpdateViewport = new Hippodrome.Action(
   displayName: 'Update Viewport'
   action: App.Actions.startApp
   task: (payload) ->
-    window.resize = @sendViewportInfo
+    window.onresize = @sendViewportInfo
     @sendViewportInfo()
 
   sendViewportInfo: ->
