@@ -354,6 +354,11 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
+.post-notice {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;

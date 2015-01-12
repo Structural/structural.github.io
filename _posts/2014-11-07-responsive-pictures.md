@@ -6,6 +6,8 @@ referrer: blog-responsive-pictures
 image:    pixels.jpg
 ---
 
+{% include new_hippodrome_version.html %}
+
 The `<img>` tag is inadequate for modern responsive web development.  Choosing
 which version of an image to show based on the attributes of the client (
 viewport size, pixel density, etc) is the only way to deliver the right images

@@ -6,6 +6,8 @@ image:    chariot-racing.jpg
 referrer: blog-intro-hippodrome
 ---
 
+{% include new_hippodrome_version.html %}
+
 The ideas behind [Flux](https://github.com/facebook/flux) are great, but the
 implementation leaves a little to be desired.  The Dispatcher that Facebook
 provides works fine, but it's a little barebones - there's no structure
